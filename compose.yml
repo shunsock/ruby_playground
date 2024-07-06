@@ -1,0 +1,12 @@
+services:
+  ruby:
+    image: ruby:3.3.3
+    container_name: ruby_playground
+    tty: true
+    volumes:
+      - ./src:/usr/src/app
+    working_dir: /usr/src/app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: tail -f /dev/null
