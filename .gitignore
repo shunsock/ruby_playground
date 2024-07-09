@@ -1,4 +1,5 @@
 # Specific
+src/.idea/*
 
 # General .gitignore file for Ruby projects.
 *.gem
