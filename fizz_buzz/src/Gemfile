@@ -4,6 +4,8 @@ ruby '3.3.3'
 
 # -- Gemfile --
 
+gem 'minitest'
+gem 'rubocop', group: 'development', require: false
 gem 'sorbet', :group => :development
 gem 'sorbet-runtime'
 gem 'tapioca', require: false, :group => [:development, :test]
