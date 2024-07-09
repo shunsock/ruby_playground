@@ -1,12 +1,23 @@
 services:
-  ruby:
+  sorbet_getting_started:
     image: ruby:3.3.3
-    container_name: ruby_playground
+    container_name: sorbet_getting_started
     tty: true
     volumes:
-      - ./src:/usr/src/app
+      - ./sorbet_getting_started/src:/usr/src/app
     working_dir: /usr/src/app
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: ./sorbet_getting_started/Dockerfile
+    command: tail -f /dev/null
+  fizz_buzz:
+    image: ruby:3.3.3
+    container_name: fizz_buzz
+    tty: true
+    volumes:
+      - ./fizz_buzz/src:/usr/src/app
+    working_dir: /usr/src/app
+    build:
+      context: .
+      dockerfile: ./fizz_buzz/Dockerfile
     command: tail -f /dev/null
