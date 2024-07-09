@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-# type: strict
+# typed: strict
 
 require 'sorbet-runtime'
 require_relative 'printer'

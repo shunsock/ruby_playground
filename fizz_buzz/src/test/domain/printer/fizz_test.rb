@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-# type: strict
+# typed: strict
 
 require 'minitest/autorun'
 require 'sorbet-runtime'
@@ -10,17 +10,16 @@ class FizzTest < Minitest::Test
 
   sig { void }
   def setup
-    @fizz = Fizz.new
+    @fizz = T.let(Fizz.new, T.nilable(Fizz))
   end
 
   sig { void }
   def test_provide_message
-    assert_equal("Fizz", @fizz.provide_message)
+    assert_equal("Fizz", T.must(@fizz).provide_message)
   end
 
   sig { void }
   def test_print
-    assert_equal("Fizz", @fizz.print)
+    assert_equal("Fizz", T.must(@fizz).print)
   end
-
 end

@@ -1,4 +1,4 @@
-# type: strict
+# typed: strict
 # frozen_string_literal: true
 
 require 'sorbet-runtime'
@@ -10,9 +10,7 @@ module Printer
   abstract!
 
   sig { abstract.returns(String) }
-  def provide_message
-    raise NotImplementedError, 'You must implement the provide_message method'
-  end
+  def provide_message; end
 
   sig { returns(String) }
   def print

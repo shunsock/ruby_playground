@@ -1,4 +1,7 @@
 #!/bin/bash -eux
 
-# get all files in test directory and save to array
+# Run static analysis
+bundle exec srb tc
+
+# Run all tests
 bundle exec ruby -Itest -e 'Dir.glob("./test/**/*_test.rb") { |file| require file }'

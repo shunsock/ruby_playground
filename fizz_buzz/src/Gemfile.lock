@@ -13,6 +13,7 @@ GEM
       sorbet-static (= 0.5.11473)
     sorbet-runtime (0.5.11473)
     sorbet-static (0.5.11473-aarch64-linux)
+    sorbet-static (0.5.11473-universal-darwin)
     sorbet-static-and-runtime (0.5.11473)
       sorbet (= 0.5.11473)
       sorbet-runtime (= 0.5.11473)
@@ -38,6 +39,7 @@ GEM
 
 PLATFORMS
   aarch64-linux
+  arm64-darwin-23
 
 DEPENDENCIES
   minitest

@@ -1,13 +1,15 @@
 # typed: strict
 require 'sorbet-runtime'
+require_relative 'domain/loop'
 
-class Example
+class Program
   extend T::Sig
 
-  sig {params(x: Integer).returns(String)}
-  def self.main(x)
-    "Passed: #{x.to_s}"
+  sig { void }
+  def self.main
+    loop = Loop.new(1, 10)
+    loop.run
   end
 end
 
-Example.main([]) # passing an Array!
+Program.main
