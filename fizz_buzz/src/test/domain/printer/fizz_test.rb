@@ -10,16 +10,16 @@ class FizzTest < Minitest::Test
 
   sig { void }
   def setup
-    @fizz = T.let(Fizz.new, T.nilable(Fizz))
+    @fizz_buzz = T.let(Fizz.new, T.nilable(Fizz))
   end
 
   sig { void }
   def test_provide_message
-    assert_equal("Fizz", T.must(@fizz).provide_message)
+    assert_equal("Fizz", T.must(@fizz_buzz).provide_message)
   end
 
   sig { void }
   def test_print
-    assert_equal("Fizz", T.must(@fizz).print)
+    assert_equal("Fizz", T.must(@fizz_buzz).print)
   end
 end
