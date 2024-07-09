@@ -11,6 +11,6 @@ class Fizz
 
   sig { override.returns(String) }
   def provide_message
-    "Fizz"
+    'Fizz'
   end
 end

@@ -16,12 +16,12 @@ class Loop
     start_with,
     end_with
   )
-    @start_with=start_with
-    @end_with=end_with
+    @start_with = start_with
+    @end_with = end_with
   end
 
   sig { void }
   def run
-    puts "run!"
+    puts 'run!'
   end
 end

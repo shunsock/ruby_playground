@@ -15,11 +15,11 @@ class FizzBuzzTest < Minitest::Test
 
   sig { void }
   def test_provide_message
-    assert_equal("FizzBuzz", T.must(@fizz_buzz).provide_message)
+    assert_equal('FizzBuzz', T.must(@fizz_buzz).provide_message)
   end
 
   sig { void }
   def test_print
-    assert_equal("FizzBuzz", T.must(@fizz_buzz).print)
+    assert_equal('FizzBuzz', T.must(@fizz_buzz).print)
   end
 end
