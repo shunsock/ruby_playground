@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/shunsock/ruby_playground" style="border-radius:5%">
+  <a href="https://github.com/shunsock/ruby_playground">
     <img alt="ruby sorbet" src="image/ruby_sorbet.jpg">
   </a>
 </div>
