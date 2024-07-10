@@ -4,7 +4,7 @@
   </a>
 </div>
 
-<h2 align="center">
+<h2 align="center" style="font-size: 32px; font-weight: bold;">
     Ruby Playground
 </h2>
 <p align="center">
@@ -19,11 +19,6 @@
   <a href="https://github.com/shunsock/ruby_playground/actions/workflows/fizz_buzz.yml">
     <img alt="workflow" src="https://github.com/shunsock/ruby_playground/actions/workflows/fizz_buzz.yml/badge.svg"></a>
 </p>
-
-
-
-# Ruby Playground
-This is a playground for Ruby. In this repository, I will show you some examples of Ruby code.
 
 ## Getting Started (sorbet_getting_started container)
 Before you start, we recommend to run `sorbet_getting_started` container to learn Sorbet.
