@@ -1,5 +1,8 @@
 #!/bin/bash -eux
 
+# Install dependencies
+bundle install
+
 # Run static analysis
 bundle exec srb tc
 
