@@ -1,3 +1,27 @@
+<div align="center">
+  <a href="https://github.com/shunsock/ruby_playground">
+    <img alt="ruby sorbet" src="image/ruby_sorbet.jpg">
+  </a>
+</div>
+
+<h2 align="center">
+    Ruby Playground
+</h2>
+<p align="center">
+    This is a playground for Ruby with Sorbet and MiniTest.
+</p>
+
+<p align="center">
+  <a href="./LICENSE">
+    <img alt="LICENSE" src="https://img.shields.io/badge/license-MIT-blue.svg?maxAge=43200"></a>
+  <a href="https://www.rust-lang.org/">
+    <img alt="rust" src="https://img.shields.io/badge/logo-ruby-red?logo=ruby"></a>
+  <a href="https://github.com/shunsock/ruby_playground/actions/workflows/fizz_buzz.yml">
+    <img alt="workflow" src="https://github.com/shunsock/ruby_playground/actions/workflows/fizz_buzz.yml/badge.svg"></a>
+</p>
+
+
+
 # Ruby Playground
 This is a playground for Ruby. In this repository, I will show you some examples of Ruby code.
 
